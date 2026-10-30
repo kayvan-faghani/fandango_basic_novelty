@@ -8,11 +8,7 @@ from typing import Iterable, Optional
 
 from fandango.constraints.constraint import Constraint
 from fandango.constraints.soft import SoftValue
-from fandango.errors import (
-    FandangoFailedError,
-    FandangoParseError,
-    FandangoValueError,
-)
+from fandango.errors import FandangoFailedError, FandangoParseError, FandangoValueError
 from fandango.evolution import GeneratorWithReturn
 from fandango.evolution.adaptation import AdaptiveTuner
 from fandango.evolution.algorithm.base import (
@@ -210,16 +206,15 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
                 self.population
             )
 
-
-    def _update_coverage_archive(self):
-        if self.evaluator.fcc:
-            da = self.evaluator.fcc.dynamic_analysis
-    
-            for ind in self.population:
-                trace = da.trace_input(ind.to_string())
-                da.update_last_block_set(trace.CoveredBasicBlocks())
-
-            self.evaluator.clear_constraint_caches()            
+    # def _update_coverage_archive(self):
+    #     if self.evaluator.fcc:
+    #         da = self.evaluator.fcc.dynamic_analysis
+    #
+    #         for ind in self.population:
+    #             trace = da.trace_input(ind.to_string())
+    #             da.update_last_block_set(trace.CoveredBasicBlocks())
+    #
+    #         self.evaluator.clear_constraint_caches()
 
     def _perform_selection(self) -> tuple[list[DerivationTree], set[int]]:
         """
@@ -401,8 +396,8 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
                 self.population
             )
 
-        self._update_coverage_archive()
-                
+        # self._update_coverage_archive()
+
         prev_best_fitness = 0.0
         generation = 0
         if self.stop_after_seconds is not None:
@@ -480,8 +475,8 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
                     self.evaluation, key=lambda x: x[1], reverse=True
                 )[: self.population_size]
 
-            self._update_coverage_archive()
-                        
+            # self._update_coverage_archive()
+
             current_best_fitness = max(e[1] for e in self.evaluation)
             current_max_repetitions = self.grammar.get_max_repetition()
             self.adaptive_tuner.update_parameters(
@@ -504,7 +499,7 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
                 generation, self.evaluation, self.population, self.evaluator
             )
             visualize_evaluation(generation, max_generations, self.evaluation)
-       
+
         clear_visualization()
         self._log_statistics()
 
