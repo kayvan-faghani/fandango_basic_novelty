@@ -397,6 +397,7 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
             )
 
         # self._update_coverage_archive()
+        self._update_EOGen()
 
         prev_best_fitness = 0.0
         generation = 0
@@ -476,6 +477,7 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
                 )[: self.population_size]
 
             # self._update_coverage_archive()
+            self._update_EOGen()
 
             current_best_fitness = max(e[1] for e in self.evaluation)
             current_max_repetitions = self.grammar.get_max_repetition()
@@ -547,3 +549,8 @@ class SimpleGeneticAlgorithm(GeneticAlgorithm):
         self.evaluation.clear()
         self._initial_solutions.clear()
         self.adaptive_tuner.reset_parameters()
+
+    def _update_EOGen(self):
+        if self.evaluator.fcc:
+            self.evaluator.fcc.dynamic_analysis.update_seen_block_set_EOGen()
+            

@@ -25,7 +25,7 @@ class Trace:
     ):
         self.sa = sa
         self.trace = trace
-        self.novel_block_count = len(self.CoveredBasicBlocks() - seen_block_set)
+        self.seen_block_set = seen_block_set
 
     #############################################
     # Helpers functions for objective functions #
@@ -143,7 +143,8 @@ class Trace:
         return float(dist)
 
     def NovelBlocks(self) -> int:
-        return self.novel_block_count
+        # evaluate everytime with updated seen_block
+        return len(self.CoveredBasicBlocks() - self.seen_block_set)
 
 
 class DynamicAnalysis:
@@ -160,6 +161,7 @@ class DynamicAnalysis:
         self.put_args = put_args if put_args is not None else []
         self.cache: LRUCache[str, Trace] = LRUCache(maxsize=1000)
         self.seen_block_set = set()
+        self.cur_gen_block_set = set()
 
     # TODO: Implement this similarly to the Fandango "run with cmd" feature.
     def trace_input(self, inp: str) -> Trace:
@@ -190,7 +192,7 @@ class DynamicAnalysis:
 
                 with open(execution_trace_json, mode="r", encoding="utf-8") as jsonf:
                     trace = Trace(self.sa, json.load(jsonf), self.seen_block_set)
-                    self.seen_block_set.update(trace.CoveredBasicBlocks())
+                    self.cur_gen_block_set.update(trace.CoveredBasicBlocks())
                     self.cache[inp] = trace
                     return trace
 
@@ -199,3 +201,7 @@ class DynamicAnalysis:
 
     def update_seen_block_set(self, seen_block_set: set[ModuleBBID]):
         self.seen_block_set.update(seen_block_set)
+
+    def update_seen_block_set_EOGen(self):
+        self.seen_block_set.update(self.cur_gen_block_set)
+        self.cur_gen_block_set = set()
