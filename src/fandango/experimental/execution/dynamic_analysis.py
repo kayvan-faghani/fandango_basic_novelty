@@ -159,12 +159,15 @@ class DynamicAnalysis:
         self.put = put
         self.put_args = put_args if put_args is not None else []
         self.cache: LRUCache[str, Trace] = LRUCache(maxsize=1000)
-        self.seen_block_set = set()
+        self.seen_block_set: set[ModuleBBID] = set()
+        self._pending_block_set: set[ModuleBBID] = set()
 
     # TODO: Implement this similarly to the Fandango "run with cmd" feature.
     def trace_input(self, inp: str) -> Trace:
         if inp in self.cache:
-            return self.cache[inp]
+            trace = Trace(self.sa, self.cache[inp].trace, self.seen_block_set)
+            self._pending_block_set.update(trace.CoveredBasicBlocks())
+            return trace
         env = os.environ.copy()
         with tempfile.NamedTemporaryFile(
             mode="w", prefix="fandango-", suffix=".txt"
@@ -190,12 +193,13 @@ class DynamicAnalysis:
 
                 with open(execution_trace_json, mode="r", encoding="utf-8") as jsonf:
                     trace = Trace(self.sa, json.load(jsonf), self.seen_block_set)
-                    self.seen_block_set.update(trace.CoveredBasicBlocks())
+                    self._pending_block_set.update(trace.CoveredBasicBlocks())
                     self.cache[inp] = trace
                     return trace
 
-    # def replace_last_block_set(self, last_block_set: set[ModuleBBID]):
-    #     self.last_block_set = last_block_set
-
     def update_seen_block_set(self, seen_block_set: set[ModuleBBID]):
         self.seen_block_set.update(seen_block_set)
+
+    def finish_generation(self) -> None:
+        self.update_seen_block_set(self._pending_block_set)
+        self._pending_block_set.clear()

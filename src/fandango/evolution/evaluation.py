@@ -315,6 +315,10 @@ class Evaluator:
                     evaluation, bonuses, strict=False
                 )
             ]
+
+        if self.fcc is not None:
+            self.fcc.dynamic_analysis.finish_generation()
+            self.clear_constraint_caches()
         return evaluation
 
     @staticmethod
