@@ -246,6 +246,9 @@ class Evaluator:
         if key in self._fitness_cache:
             return self._fitness_cache[key]
 
+        if self.fcc is not None:
+            self.fcc.dynamic_analysis.trace_input(str(individual))
+
         total_constraint_count = (
             len(self._hard_constraints)
             + len(self._repetition_bounds_constraints)

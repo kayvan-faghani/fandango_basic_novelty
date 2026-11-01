@@ -17,4 +17,4 @@
 <word>    ::= r'[a-z]+'
 <age>     ::= r'[0-9]+'
 
-maximizing DynamicAnalysis(str(<start>)).NovelBlocks()
+maximizing DynamicAnalysis(str(<start>)).CodeCoverage()

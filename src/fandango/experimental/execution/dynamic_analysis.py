@@ -1,7 +1,9 @@
+import csv
 import json
 import os
 import subprocess
 import tempfile
+import time
 from typing import Optional, Union
 
 from cachetools import LRUCache
@@ -161,6 +163,14 @@ class DynamicAnalysis:
         self.cache: LRUCache[str, Trace] = LRUCache(maxsize=1000)
         self.seen_block_set: set[ModuleBBID] = set()
         self._pending_block_set: set[ModuleBBID] = set()
+        self.target_executions = 0
+        self.started_at = time.perf_counter()
+        self.coverage_csv = os.environ.get("FANDANGO_COVERAGE_CSV")
+        if self.coverage_csv:
+            with open(self.coverage_csv, "w", newline="") as file:
+                csv.writer(file).writerow(
+                    ["elapsed_seconds", "target_executions", "covered_blocks"]
+                )
 
     # TODO: Implement this similarly to the Fandango "run with cmd" feature.
     def trace_input(self, inp: str) -> Trace:
@@ -182,6 +192,7 @@ class DynamicAnalysis:
                 env["EXECUTION_TRACE_JSON"] = execution_trace_json
                 LOGGER.info(f"Running input: (len: {len(inp)})")
                 LOGGER.info(inp)
+                self.target_executions += 1
                 subprocess.run(
                     [self.put] + self.put_args + [inp_fd.name],
                     cwd=self.root_dir,
@@ -203,3 +214,12 @@ class DynamicAnalysis:
     def finish_generation(self) -> None:
         self.update_seen_block_set(self._pending_block_set)
         self._pending_block_set.clear()
+        if self.coverage_csv:
+            with open(self.coverage_csv, "a", newline="") as file:
+                csv.writer(file).writerow(
+                    [
+                        time.perf_counter() - self.started_at,
+                        self.target_executions,
+                        len(self.seen_block_set),
+                    ]
+                )
