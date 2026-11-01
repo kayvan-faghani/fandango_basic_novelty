@@ -1,0 +1,31 @@
+#!/bin/bash
+
+compiler="${FCC_CLANG:-clang}"
+pass="${FCC_PASS_DIR:-@CMAKE_CURRENT_BINARY_DIR@}/libInstrumentationPass.so"
+# TODO: Change runtime/CMakeLists.txt to not output in binary dir, but in binary_dir/runtime.
+binary_dir="${FCC_BINARY_DIR:-@CMAKE_BINARY_DIR@}"
+mylibc="${FCC_MYLIBC:-@CMAKE_BINARY_DIR@/mylibc/libmylibc.a}"
+
+set -e
+
+# WLLVM has a bug that silently drops "-fpass-plugin=a.so"
+# because it's misclassified as an object file due to .so ending.
+# I fixed this in https://github.com/travitch/whole-program-llvm/pull/157.
+# This script depends on that fix.
+
+# -Xclang -fexperimental-assignment-tracking=disabled because clang-20/**x86_64**
+# to avoid a bug: !DIAssignID attached to unexpected instruction kind
+
+# -Qunused-arguments so compiler doesn't complain about linker commands being passed
+# during compilation.
+dopass="-fpass-plugin=$pass"
+LLVM_COMPILER=$compiler exec wllvm              \
+     -g                                         \
+     -Xclang -fexperimental-assignment-tracking=disabled \
+     -fpass-plugin="$pass"                      \
+     "$@"                                       \
+     -L"$binary_dir"                            \
+     -lRuntime                                  \
+     $mylibc                                    \
+     -Wl,-rpath,"$binary_dir"                   \
+     -Qunused-arguments

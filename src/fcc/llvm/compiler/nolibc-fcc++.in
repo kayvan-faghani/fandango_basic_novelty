@@ -1,0 +1,17 @@
+#!/bin/bash
+
+compiler="${FCC_CLANG:-clang}"
+pass="${FCC_PASS_DIR:-@CMAKE_CURRENT_BINARY_DIR@}/libInstrumentationPass.so"
+binary_dir="${FCC_BINARY_DIR:-@CMAKE_BINARY_DIR@}"
+
+set -e 
+
+dopass="-fpass-plugin=$pass"
+LLVM_COMPILER=$compiler exec wllvm++            \
+     -g                                         \
+     -fpass-plugin="$pass"                      \
+     "$@"                                       \
+     -L"$binary_dir"                            \
+     -lRuntime                                  \
+     -Wl,-rpath,"$binary_dir"                   \
+     -Qunused-arguments

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+pass="${FCC_PASS_DIR:-@CMAKE_CURRENT_BINARY_DIR@}/libAnalysisPass.so"
+
+if [ "$#" -ne 1 ]; then
+    echo "Error: You must provide exactly one argument (a binary instrumented by fcc)."
+    exit 1
+fi
+
+set -x
+
+bin="$1"
+bc="$bin.bc"
+dir=$(dirname "$bc")
+
+rm -fr $dir/.cfg
+mkdir $dir/.cfg
+
+extract-bc $bin -o $bc &> /dev/null
+
+opt                                 \
+     -disable-output                \
+     -load-pass-plugin=$pass        \
+     -passes="analysis-pass"        \
+     $bc
