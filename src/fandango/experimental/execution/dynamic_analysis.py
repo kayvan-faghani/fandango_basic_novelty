@@ -25,7 +25,6 @@ class Trace:
     ):
         self.sa = sa
         self.trace = trace
-        self.novel_block_count = len(self.CoveredBasicBlocks() - seen_block_set)
 
     #############################################
     # Helpers functions for objective functions #
@@ -143,8 +142,7 @@ class Trace:
         return float(dist)
 
     def NovelBlocks(self) -> int:
-        return self.novel_block_count
-
+        return len(self.CoveredBasicBlocks() - seen_block_set)
 
 class DynamicAnalysis:
     def __init__(
