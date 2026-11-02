@@ -10,30 +10,52 @@
 #include <memory>
 #include <cassert>
 #include <unordered_map>
+#include <vector>
 
 #include "LRuntime.h"
 #include "json.hpp"
 
 using json = nlohmann::json;
 using namespace std;
-
+constexpr uint64_t AVALANCHE_CONSTANT = 0x9E3779B97F4A7C15;
 bool in_json_code = false; // json (nlohmann) code may call libc++, which is instrumented. We don't want to log BBs/LOADs from that though.
 bool logging = false;
 uint8_t* input_buffer = nullptr;
 size_t size_input_buffer = 0;
 uint32_t cur_bb;
 uint64_t allocated_bytes = 0; // for malloc allocation tracking
+struct PrevState {
+    uint32_t module_index;
+    uint32_t bb_id;
+    bool valid;
+};
 
+PrevState prev_state = PrevState{0,0,false};
 struct ModuleBBTable {
     uint64_t* module_bb_hitcount_array;
     uint32_t size;
-
     bool operator==(const ModuleBBTable& other) const {
         return module_bb_hitcount_array == other.module_bb_hitcount_array && size == other.size;
     }
 };
-
+struct Edge {
+    uint32_t src_module;
+    uint32_t src_bb;
+    uint32_t dest_module;
+    uint32_t dest_bb;
+    bool operator==(const Edge& other) const{
+        return src_module == other.src_module && src_bb == other.src_bb && dest_module == other.dest_module && dest_bb == other.dest_bb;
+    }
+};
+struct EdgeHash {
+    size_t operator()(const Edge& e) const{ 
+        return (((uint64_t)e.src_module << 32 | e.src_bb) * AVALANCHE_CONSTANT) ^ ((uint64_t)e.dest_module << 32 | e.dest_bb);
+    }
+};
 std::unordered_map<std::string, ModuleBBTable> module_bb_hitcount_map;
+std::vector<const char*> module_identifier_list;
+std::unordered_map<const char*, uint32_t> module_ptr_to_index;
+std::unordered_map<Edge, uint64_t, EdgeHash> edge_hitcount_map;
 
 // #define DEBUG_PRINTS
 #ifdef DEBUG_PRINTS
@@ -63,6 +85,8 @@ void _runtime_initialize(char* moduleIdentifier, uint64_t* module_bb_hitcount_ar
     }
 
     module_bb_hitcount_map[moduleIdentifier] = ModuleBBTable{module_bb_hitcount_array, size};
+    module_ptr_to_index[moduleIdentifier] = uint32_t(module_identifier_list.size());
+    module_identifier_list.push_back(moduleIdentifier);
 
     // _runtime_initialize is added to ctor of each module
     // after linking, the final module will call _runtime_initialize X times
@@ -91,7 +115,19 @@ void _runtime_print(char* s) {
 }
 
 void _runtime_bb(char* moduleIdentifier, uint32_t bbid) {
-    if (moduleIdentifier || bbid) {} // unused
+    if (in_json_code || !logging) return;
+    auto it = module_ptr_to_index.find(moduleIdentifier);
+    if (it == module_ptr_to_index.end()) return;
+    uint32_t cur_module = it->second;
+
+    if (prev_state.valid){
+        Edge e{prev_state.module_index, prev_state.bb_id, cur_module, bbid};
+        edge_hitcount_map[e] += 1;
+    }
+
+    prev_state.module_index = cur_module;
+    prev_state.bb_id = bbid;
+    prev_state.valid = true;
 }
 
 void _runtime_branch(uint32_t branchid) {
@@ -101,6 +137,7 @@ void _runtime_branch(uint32_t branchid) {
 }
 
 void _runtime_output() {
+    in_json_code = true;
     std::cerr << "_runtime_output (serialize_trace) called\n";
     const char* execution_trace_json = std::getenv("EXECUTION_TRACE_JSON");
     if (execution_trace_json == NULL) {
@@ -121,6 +158,12 @@ void _runtime_output() {
                 j_output["trace"].erase(module_identifier);
             }
 
+        }
+        j_output["edges"] = json::object();
+        for (const auto& [edge, count]:edge_hitcount_map){
+            auto src_module = module_identifier_list[edge.src_module];
+            auto dest_module = module_identifier_list[edge.dest_module];
+            j_output["edges"][src_module][dest_module].push_back({edge.src_bb, edge.dest_bb, count});
         }
         j_output["allocated_bytes"] = allocated_bytes;
         file << j_output;

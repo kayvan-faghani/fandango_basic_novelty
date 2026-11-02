@@ -191,8 +191,11 @@ GlobalVariable* addGlobalBBHitCountArray(Module &M, uint32_t bb_count) {
         Instruction* instr = &(*(BB.getFirstInsertionPt()));
         set_module_identifier_metadata(instr);
         set_metadata(instr, BBId);
-        uint32_t bbid = get_bbid_from_bb(BB);
-        instrumentBasicBlockHits(instr, get_bbid_constantint(instr), module_bb_hitcount_array);
+        ConstantInt* bbid_const = get_bbid_constantint(instr);
+        instrumentBasicBlockHits(instr, bbid_const, module_bb_hitcount_array);
+        // Edge instrumentation
+        IRBuilder<> builder(instr);
+        builder.CreateCall(m_rt->_bb, {moduleIdentifierPtr, bbid_const});
 
         // "mem" instrumentation
         for (Instruction& I: BB) {
