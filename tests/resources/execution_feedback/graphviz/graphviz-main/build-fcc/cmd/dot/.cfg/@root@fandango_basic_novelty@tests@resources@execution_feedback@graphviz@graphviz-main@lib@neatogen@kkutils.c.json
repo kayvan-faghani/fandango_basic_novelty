@@ -1,0 +1,1123 @@
+{
+    "cmp.9784": {
+        "83": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "84"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "85"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "88"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "86"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "87"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "88"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "88"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "common_neighbors": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "1"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "6"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "3"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "4"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "5"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "1"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "compute_apsp": {
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "19"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "compute_apsp_dijkstra"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "20"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "compute_apsp_simple"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "20"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "compute_apsp_artificial_weights": {
+        "39": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "compute_new_weights"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "compute_apsp_dijkstra"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "restore_old_weights"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "compute_apsp_dijkstra": {
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "22"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "23"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "25"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "24"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "22"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "26"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "27"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "29"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/dijkstra.c",
+                    "ngdijkstra"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "26"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "compute_apsp_simple": {
+        "30": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "31"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "32"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "34"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "33"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "31"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "35"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "36"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "38"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/bfs.c",
+                    "bfs"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "35"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "compute_new_weights": {
+        "40": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "41"
+                ]
+            ]
+        },
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "42"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "44"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "43"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "41"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_calloc.9761"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "45"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "46"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "52"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "fill_neighbors_vec_unweighted"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "47"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "48"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "50"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "common_neighbors"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "47"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "empty_neighbors_vec"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "51"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "45"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "distance_kD": {
+        "60": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "61"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "62"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "64"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "63"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "61"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [
+                [
+                    "__external__",
+                    "sqrt"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "empty_neighbors_vec": {
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "13"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "14"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "16"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "15"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "13"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "fcmpf": {
+        "76": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "77"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "78"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "81"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "79"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "80"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "81"
+                ]
+            ]
+        },
+        "80": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "81"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "fill_neighbors_vec_unweighted": {
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "8"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": []
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "8"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "9"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "11"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "10"
+                ]
+            ]
+        }
+    },
+    "graphviz_exit.9763": {
+        "102": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.9761": {
+        "89": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "90"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "92"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "91"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "92"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "graphviz_exit.9763"
+                ]
+            ],
+            "successors": []
+        },
+        "92": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "93"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "96"
+                ]
+            ]
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "94"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "96"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "95"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "96"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "graphviz_exit.9763"
+                ]
+            ],
+            "successors": []
+        },
+        "96": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_sort.9773": {
+        "68": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "69"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "72"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "70"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "72"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "71"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "72"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "73"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "73": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "74"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "75"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [
+                [
+                    "__external__",
+                    "qsort"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_sort_compar_wrapper.9779": {
+        "100": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "101": {
+            "callees": [],
+            "successors": []
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "98"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "100"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "99"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "100"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "101"
+                ]
+            ]
+        }
+    },
+    "quicksort_place": {
+        "82": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_sort.9773"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "quicksort_placef": {
+        "65": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "66"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "67"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "gv_sort.9773"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "67"
+                ]
+            ]
+        },
+        "67": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "restore_old_weights": {
+        "53": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "59"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "55"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "56"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "58"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "57"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "55"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "59"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

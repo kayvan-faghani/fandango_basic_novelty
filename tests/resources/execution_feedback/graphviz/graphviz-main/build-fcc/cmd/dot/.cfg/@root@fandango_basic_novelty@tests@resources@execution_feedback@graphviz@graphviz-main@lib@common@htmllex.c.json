@@ -1,0 +1,114 @@
+{
+    "clearHTMLlexer": {
+        "9": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "error_context": {
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agerr"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "htmlerror": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "3"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "htmllineno"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agerrorf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "error_context"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "3"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "htmllex": {
+        "10": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "htmllineno": {
+        "4": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "initHTMLlexer": {
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agwarningf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/htmllex.c",
+                    "8"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

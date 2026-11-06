@@ -1,0 +1,2188 @@
+{
+    "aghtmlstr": {
+        "112": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "113"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "114"
+                ]
+            ]
+        },
+        "113": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "115"
+                ]
+            ]
+        },
+        "114": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "115"
+                ]
+            ]
+        },
+        "115": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agstrbind": {
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "21"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "25"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_find"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "22"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "24"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "23"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "24"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrbind_html"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "26"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "25"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrbind_text"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "26"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agstrbind_html": {
+        "48": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refstrbind"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agstrbind_text": {
+        "49": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refstrbind"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agstrclose": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agstrdup": {
+        "68": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "69"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "73"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_find"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "70"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "72"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "71"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "72"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrdup_html"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "74"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "73"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrdup_text"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "74"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agstrdup_html": {
+        "67": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrdup_internal"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agstrdup_internal": {
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "56"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "57"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "66"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_find"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "58"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "59"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "65"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [
+                [
+                    "__external__",
+                    "strlen"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "60"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "61"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "gv_calloc.4954"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "64"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [
+                [
+                    "__external__",
+                    "malloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "62"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "63"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "66"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "64"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_add"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "65"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "66"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agstrdup_text": {
+        "54": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "agstrdup_internal"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agstrfree": {
+        "75": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "76"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "77"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "85"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refdict"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_find"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "78"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "82"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "79"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "82"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "80"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "81"
+                ]
+            ]
+        },
+        "80": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_remove"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "81"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "82"
+                ]
+            ]
+        },
+        "82": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "83"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "84"
+                ]
+            ]
+        },
+        "83": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "85"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "85"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "graphviz_exit.4956": {
+        "126": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_alloc.4953": {
+        "117": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "gv_calloc.4954"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.4954": {
+        "118": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "119"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "121"
+                ]
+            ]
+        },
+        "119": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "120"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "121"
+                ]
+            ]
+        },
+        "120": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "graphviz_exit.4956"
+                ]
+            ],
+            "successors": []
+        },
+        "121": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "122"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "125"
+                ]
+            ]
+        },
+        "122": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "123"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "125"
+                ]
+            ]
+        },
+        "123": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "124"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "125"
+                ]
+            ]
+        },
+        "124": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "graphviz_exit.4956"
+                ]
+            ],
+            "successors": []
+        },
+        "125": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "hash": {
+        "135": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "137"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "136"
+                ]
+            ]
+        },
+        "136": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "137"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "138"
+                ]
+            ]
+        },
+        "137": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "139"
+                ]
+            ]
+        },
+        "138": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "139": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "140"
+                ]
+            ]
+        },
+        "140": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "141"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "142"
+                ]
+            ]
+        },
+        "141": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "140"
+                ]
+            ]
+        },
+        "142": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "150"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "143"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "144"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "145"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "146"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "147"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "148"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "149"
+                ]
+            ]
+        },
+        "143": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "144"
+                ]
+            ]
+        },
+        "144": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "145"
+                ]
+            ]
+        },
+        "145": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "146"
+                ]
+            ]
+        },
+        "146": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "147"
+                ]
+            ]
+        },
+        "147": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "148"
+                ]
+            ]
+        },
+        "148": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "149"
+                ]
+            ]
+        },
+        "149": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "151"
+                ]
+            ]
+        },
+        "150": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "151"
+                ]
+            ]
+        },
+        "151": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "refdict": {
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "16"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "17"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "17"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "19"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_new"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "19"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "refstr_eq": {
+        "131": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "132"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "133"
+                ]
+            ]
+        },
+        "132": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "134"
+                ]
+            ]
+        },
+        "133": {
+            "callees": [
+                [
+                    "__external__",
+                    "strcmp"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "134"
+                ]
+            ]
+        },
+        "134": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "refstrbind": {
+        "50": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_find"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "51"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "52"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "53"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "53"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "strdict_add": {
+        "152": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "153"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "154"
+                ]
+            ]
+        },
+        "153": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "155"
+                ]
+            ]
+        },
+        "154": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "155": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "156"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "157"
+                ]
+            ]
+        },
+        "156": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "158"
+                ]
+            ]
+        },
+        "157": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "158": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "159"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "160"
+                ]
+            ]
+        },
+        "159": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "161"
+                ]
+            ]
+        },
+        "160": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "161": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "162"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "163"
+                ]
+            ]
+        },
+        "162": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "164"
+                ]
+            ]
+        },
+        "163": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "164"
+                ]
+            ]
+        },
+        "164": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "165"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "177"
+                ]
+            ]
+        },
+        "165": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "166"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "167"
+                ]
+            ]
+        },
+        "166": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "168"
+                ]
+            ]
+        },
+        "167": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "168"
+                ]
+            ]
+        },
+        "168": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "gv_calloc.4954"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "169"
+                ]
+            ]
+        },
+        "169": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "170"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "176"
+                ]
+            ]
+        },
+        "170": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "171"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "172"
+                ]
+            ]
+        },
+        "171": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "175"
+                ]
+            ]
+        },
+        "172": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "173"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "174"
+                ]
+            ]
+        },
+        "173": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "175"
+                ]
+            ]
+        },
+        "174": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_add"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "175"
+                ]
+            ]
+        },
+        "175": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "169"
+                ]
+            ]
+        },
+        "176": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "177"
+                ]
+            ]
+        },
+        "177": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "178"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "179"
+                ]
+            ]
+        },
+        "178": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "180"
+                ]
+            ]
+        },
+        "179": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "180": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "181"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "182"
+                ]
+            ]
+        },
+        "181": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "183"
+                ]
+            ]
+        },
+        "182": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "183": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_hash"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "184"
+                ]
+            ]
+        },
+        "184": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "185"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "190"
+                ]
+            ]
+        },
+        "185": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "187"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "186"
+                ]
+            ]
+        },
+        "186": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "187"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "188"
+                ]
+            ]
+        },
+        "187": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "192"
+                ]
+            ]
+        },
+        "188": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "189"
+                ]
+            ]
+        },
+        "189": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "184"
+                ]
+            ]
+        },
+        "190": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "191"
+                ]
+            ]
+        },
+        "191": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "192": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "strdict_find": {
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "28"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "29"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "30"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "30": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "31"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "32"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "33"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "33": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_hash"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "34"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "35"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "36"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "36"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "38"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "46"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "39"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "40"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "47"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "41"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "42"
+                ]
+            ]
+        },
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "45"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refstr_eq"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "43"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "44"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "47"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "45"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "37"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "47"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "strdict_free": {
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "3"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "7"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "13"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "5"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "13"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "13"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "12"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "9"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "10"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "10"
+                ]
+            ]
+        }
+    },
+    "strdict_hash": {
+        "127": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "128"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "129"
+                ]
+            ]
+        },
+        "128": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "130"
+                ]
+            ]
+        },
+        "129": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "130": {
+            "callees": [
+                [
+                    "__external__",
+                    "strlen"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "hash"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "strdict_new": {
+        "116": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "gv_alloc.4953"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "strdict_remove": {
+        "100": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "101"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "102"
+                ]
+            ]
+        },
+        "101": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "111"
+                ]
+            ]
+        },
+        "102": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "103"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "104"
+                ]
+            ]
+        },
+        "103": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "110"
+                ]
+            ]
+        },
+        "104": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "refstr_eq"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "105"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "109"
+                ]
+            ]
+        },
+        "105": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "106"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "107"
+                ]
+            ]
+        },
+        "106": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "108"
+                ]
+            ]
+        },
+        "107": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "108": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "111"
+                ]
+            ]
+        },
+        "109": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "110"
+                ]
+            ]
+        },
+        "110": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "99"
+                ]
+            ]
+        },
+        "111": {
+            "callees": [],
+            "successors": []
+        },
+        "86": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "87"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "88"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "89"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "89": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "90"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "91"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "92"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "92": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "93"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "94"
+                ]
+            ]
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "95"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "95": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "strdict_hash"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "96"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "97"
+                ]
+            ]
+        },
+        "96": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "98"
+                ]
+            ]
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "98"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "99"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "100"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/refstr.c",
+                    "111"
+                ]
+            ]
+        }
+    }
+}

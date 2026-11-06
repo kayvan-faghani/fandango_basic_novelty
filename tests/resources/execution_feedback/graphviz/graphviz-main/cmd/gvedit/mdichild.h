@@ -1,0 +1,52 @@
+/*************************************************************************
+ * Copyright (c) 2011 AT&T Intellectual Property
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v2.0
+ * which accompanies this distribution, and is available at
+ * https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html
+ *
+ * Contributors: Details at https://graphviz.org
+ *************************************************************************/
+
+#pragma once
+
+#include "imageviewer.h"
+#include <QTextEdit>
+#include <memory>
+class CMainWindow;
+
+class MdiChild : public QTextEdit {
+  Q_OBJECT
+
+public:
+  MdiChild();
+
+  void newFile();
+  bool loadFile(const QString &fileName);
+  bool save();
+  bool saveAs();
+  bool saveFile(const QString &fileName);
+  QString userFriendlyCurrentFile();
+  QString currentFile() { return curFile; }
+  int layoutIdx;
+  int renderIdx;
+  QString outputFile;
+  QString attributes;
+  std::unique_ptr<ImageViewer> previewFrm;
+  CMainWindow *parentFrm;
+  bool loadPreview(const QString &fileName);
+
+protected:
+  void closeEvent(QCloseEvent *event);
+
+private slots:
+  void documentWasModified();
+
+private:
+  bool maybeSave();
+  void setCurrentFile(const QString &fileName);
+  QString strippedName(const QString &fullFileName);
+
+  QString curFile;
+  bool isUntitled;
+};

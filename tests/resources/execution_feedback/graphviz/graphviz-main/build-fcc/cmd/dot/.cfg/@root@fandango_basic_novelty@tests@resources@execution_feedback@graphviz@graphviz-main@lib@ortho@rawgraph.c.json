@@ -1,0 +1,1180 @@
+{
+    "DFS_visit": {
+        "100": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "101"
+                ]
+            ]
+        },
+        "101": {
+            "callees": [],
+            "successors": []
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "94"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_list_size_.4533"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "95"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "99"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "96"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "97"
+                ]
+            ]
+        },
+        "96": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "DFS_visit"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "97"
+                ]
+            ]
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "98"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "94"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "100"
+                ]
+            ]
+        }
+    },
+    "edge_exists": {
+        "40": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_contains_"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "free_graph": {
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "15"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "16"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "33"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "17"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "18"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "19"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_list_size_.4533"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "20"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "29"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "21"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "22"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "23"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "26"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "25"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "25"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "26"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "27"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "19"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "30"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "31"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "32"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "15"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "graphviz_exit.4529": {
+        "102": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_alloc.4526": {
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_calloc.4527"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.4527": {
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "11"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "13"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "12"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "13"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "graphviz_exit.4529"
+                ]
+            ],
+            "successors": []
+        },
+        "13": {
+            "callees": [],
+            "successors": []
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "7"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "9"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "9"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "graphviz_exit.4529"
+                ]
+            ],
+            "successors": []
+        },
+        "9": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "10"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "13"
+                ]
+            ]
+        }
+    },
+    "gv_list_size_.4533": {
+        "34": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "insert_edge": {
+        "35": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "edge_exists"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "39"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "36"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "38"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "make_graph": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_alloc.4526"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_calloc.4527"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "1"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "4"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "3"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "1"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "remove_redge": {
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "42"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_find_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "43"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "44"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "52"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "45"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "46"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "47"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "50"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "48"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "49"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "50"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "51"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_remove_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "52"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "53"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_find_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "55"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "63"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "56"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "57"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "58"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "61"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "59"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "60"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "60"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "61"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "62"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_remove_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "63"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "top_sort": {
+        "64": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "65"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "66"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "92"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "67"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "68"
+                ]
+            ]
+        },
+        "67": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "92"
+                ]
+            ]
+        },
+        "68": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_reserve_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "69"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "70"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "74"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "71"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "72"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "DFS_visit"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "72"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "73"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "69"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_list_size_.4533"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "76"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "77"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_pop_back_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "75"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "78"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "79"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "80"
+                ]
+            ]
+        },
+        "80": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "gv_list_size_.4533"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "81"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "90"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "82"
+                ]
+            ]
+        },
+        "82": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "83"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "84"
+                ]
+            ]
+        },
+        "83": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "87"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "85"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "86"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "86"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "87"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "88"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "89"
+                ]
+            ]
+        },
+        "89": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "80"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "91"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/rawgraph.c",
+                    "92"
+                ]
+            ]
+        },
+        "92": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

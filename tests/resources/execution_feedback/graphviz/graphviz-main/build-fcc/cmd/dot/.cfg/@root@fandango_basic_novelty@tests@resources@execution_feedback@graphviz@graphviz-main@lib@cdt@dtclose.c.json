@@ -1,0 +1,138 @@
+{
+    "dtclose": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "3"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": []
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "10"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "4"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "5"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtview.c",
+                    "dtview"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "5"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "dtsize"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "7"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "10"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "9"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "9"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "10"
+                ]
+            ]
+        }
+    }
+}

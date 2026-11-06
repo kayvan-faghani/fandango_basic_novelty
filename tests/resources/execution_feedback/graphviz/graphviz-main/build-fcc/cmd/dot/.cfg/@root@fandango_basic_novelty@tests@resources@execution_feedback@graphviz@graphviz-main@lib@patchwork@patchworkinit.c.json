@@ -1,0 +1,1000 @@
+{
+    "graphviz_exit.8735": {
+        "77": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.8731": {
+        "67": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "68"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "70"
+                ]
+            ]
+        },
+        "68": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "69"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "70"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "graphviz_exit.8735"
+                ]
+            ],
+            "successors": []
+        },
+        "70": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "71"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "74"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "72"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "74"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "73"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "74"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "graphviz_exit.8735"
+                ]
+            ],
+            "successors": []
+        },
+        "74": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_list_size_.8738": {
+        "66": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "mkClusters.8730": {
+        "19": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "20"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "23"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "21"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "22"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "24"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "24"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/subg.c",
+                    "agfstsubg"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "25"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "26"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "33"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/utils.c",
+                    "is_a_cluster"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "27"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "30"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/rec.c",
+                    "agbindrec"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "29"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "mkClusters.8730"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "31"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "mkClusters.8730"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "31"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "32"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/subg.c",
+                    "agnxtsubg"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "25"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "34"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "56"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_list_size_.8738"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "35"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "36"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "37"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "37": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_list_size_.8738"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_list_size_.8738"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "38"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "39"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_shrink_to_fit_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_detach_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "55"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "40"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "41"
+                ]
+            ]
+        },
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "42"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_list_size_.8738"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "43"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "52"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "44"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "45"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "46"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "49"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "47"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "48"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "48"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "50"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "51"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "42"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "53"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "54"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "55"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "56"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "patchwork_cleanup": {
+        "10": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agfstout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "12"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "14"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/utils.c",
+                    "gv_cleanup_edge"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "13"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agnxtout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "11"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/utils.c",
+                    "gv_cleanup_node"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "15"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "9"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "patchwork_cleanup_graph"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "17"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": []
+        },
+        "6": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "17"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "9"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "10"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "16"
+                ]
+            ]
+        }
+    },
+    "patchwork_cleanup_graph": {
+        "18": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "patchwork_init_edge": {
+        "76": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/rec.c",
+                    "agbindrec"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "patchwork_init_graph": {
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/attr.c",
+                    "agattr_text"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/utils.c",
+                    "setEdgeType"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "mkClusters.8730"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "patchwork_init_node_edge"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "patchwork_init_node": {
+        "75": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/attr.c",
+                    "agset"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "patchwork_init_node_edge": {
+        "57": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/graph.c",
+                    "agnnodes_z"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_calloc.8731"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "gv_calloc.8731"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "58"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "59"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "65"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/rec.c",
+                    "agbindrec"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "patchwork_init_node"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agfstout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "60"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "61"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "63"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "patchwork_init_edge"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "62"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agnxtout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "60"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "64"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "58"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "patchwork_layout": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "patchwork_init_graph"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/graph.c",
+                    "agnnodes"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "3"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "3"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchwork.c",
+                    "patchworkLayout"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/postproc.c",
+                    "dotneato_postprocess"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/patchwork/patchworkinit.c",
+                    "4"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

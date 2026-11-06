@@ -1,0 +1,139 @@
+{
+    "dtsize": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtrestore.c",
+                    "dtrestore"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "3"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "3"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "4"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "7"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "5"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "6"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "treecount"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "6"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "treecount": {
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": []
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "9"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "10"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "treecount"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "treecount"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtsize.c",
+                    "11"
+                ]
+            ]
+        }
+    }
+}

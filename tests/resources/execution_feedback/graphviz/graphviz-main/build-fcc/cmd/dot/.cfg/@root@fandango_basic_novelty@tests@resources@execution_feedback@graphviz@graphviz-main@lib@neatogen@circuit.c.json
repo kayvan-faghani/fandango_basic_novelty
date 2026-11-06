@@ -1,0 +1,456 @@
+{
+    "circuit_model": {
+        "13": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stuff.c",
+                    "new_array"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stuff.c",
+                    "new_array"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "14"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "29"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agfstedge"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "16"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "17"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "27"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "19"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "20"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "20"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "21"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "22"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "23"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "23"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "25"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "26"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "26"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agnxtedge"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "16"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "14"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "solveCircuit"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "30"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "39"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "31"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "32"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "38"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "33"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "34"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "36"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "35"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "33"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "31"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stuff.c",
+                    "free_array"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stuff.c",
+                    "free_array"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "solveCircuit": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "2"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "3"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matinv.c",
+                    "matinv"
+                ]
+            ],
+            "successors": []
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "3"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "4"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "12"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "5"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "10"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "7"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "8"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "8"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "9"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/circuit.c",
+                    "5"
+                ]
+            ]
+        }
+    }
+}

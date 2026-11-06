@@ -1,0 +1,97 @@
+{
+    "agdtclose": {
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtdisc.c",
+                    "dtdisc"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "dtclose"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "3"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "4"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agdtdisc": {
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtdisc.c",
+                    "dtdisc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "7"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtdisc.c",
+                    "dtdisc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/utils.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agdtopen": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtopen.c",
+                    "dtopen"
+                ]
+            ],
+            "successors": []
+        }
+    }
+}

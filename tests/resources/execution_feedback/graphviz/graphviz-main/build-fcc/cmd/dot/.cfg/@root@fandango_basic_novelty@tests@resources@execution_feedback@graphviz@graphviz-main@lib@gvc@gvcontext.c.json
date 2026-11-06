@@ -1,0 +1,406 @@
+{
+    "graphviz_exit.5293": {
+        "30": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gvCloneGVC": {
+        "20": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "gv_alloc.5287"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gvFinalize": {
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "3"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvrender.c",
+                    "gvrender_end_job"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "4"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gvFreeCloneGVC": {
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvjobs.c",
+                    "gvjobs_delete"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gvFreeContext": {
+        "10": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "9"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvjobs.c",
+                    "gvjobs_delete"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/textspan.c",
+                    "textfont_dict_close"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "12"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "13"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "19"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "14"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "17"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "16"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "14"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "18"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "12"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agerrors"
+                ]
+            ],
+            "successors": []
+        },
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/emit.c",
+                    "emit_once_reset"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "6"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "7"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "8"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "6"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "9"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "10"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "11"
+                ]
+            ]
+        }
+    },
+    "gvNEWcontext": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "gv_alloc.5287"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_alloc.5287": {
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "gv_calloc.5291"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.5291": {
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "23"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "25"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "25"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "graphviz_exit.5293"
+                ]
+            ],
+            "successors": []
+        },
+        "25": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "26"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "29"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "27"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "29"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "28"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "29"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvcontext.c",
+                    "graphviz_exit.5293"
+                ]
+            ],
+            "successors": []
+        },
+        "29": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

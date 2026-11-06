@@ -1,0 +1,4781 @@
+{
+    "bitarray_get.4510": {
+        "301": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "302"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "304"
+                ]
+            ]
+        },
+        "302": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "303"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "304"
+                ]
+            ]
+        },
+        "303": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "305"
+                ]
+            ]
+        },
+        "304": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "305": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "306"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "307"
+                ]
+            ]
+        },
+        "306": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "308"
+                ]
+            ]
+        },
+        "307": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "308"
+                ]
+            ]
+        },
+        "308": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "bitarray_new.4505": {
+        "175": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "176"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "177"
+                ]
+            ]
+        },
+        "176": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "178"
+                ]
+            ]
+        },
+        "177": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_calloc.4500"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "178"
+                ]
+            ]
+        },
+        "178": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "bitarray_reset.4506": {
+        "286": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "287"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "288"
+                ]
+            ]
+        },
+        "287": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "289"
+                ]
+            ]
+        },
+        "288": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "289": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "290"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "291"
+                ]
+            ]
+        },
+        "290": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "291"
+                ]
+            ]
+        },
+        "291": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "292"
+                ]
+            ]
+        },
+        "292": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "293"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "292"
+                ]
+            ]
+        },
+        "293": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "bitarray_set.4511": {
+        "309": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "310"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "312"
+                ]
+            ]
+        },
+        "310": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "311"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "312"
+                ]
+            ]
+        },
+        "311": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "313"
+                ]
+            ]
+        },
+        "312": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "313": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "314"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "315"
+                ]
+            ]
+        },
+        "314": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "316"
+                ]
+            ]
+        },
+        "315": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "316"
+                ]
+            ]
+        },
+        "316": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "317"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "318"
+                ]
+            ]
+        },
+        "317": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "319"
+                ]
+            ]
+        },
+        "318": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "319"
+                ]
+            ]
+        },
+        "319": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "convert": {
+        "153": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "154"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "155"
+                ]
+            ]
+        },
+        "154": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "156"
+                ]
+            ]
+        },
+        "155": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "156"
+                ]
+            ]
+        },
+        "156": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "157"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "162"
+                ]
+            ]
+        },
+        "157": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "158"
+                ]
+            ]
+        },
+        "158": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "159"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "161"
+                ]
+            ]
+        },
+        "159": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "perp.4517"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "160"
+                ]
+            ]
+        },
+        "160": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "158"
+                ]
+            ]
+        },
+        "161": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "162"
+                ]
+            ]
+        },
+        "162": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "equal_to": {
+        "336": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "fp_equal"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "337"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "338"
+                ]
+            ]
+        },
+        "337": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "fp_equal"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "338"
+                ]
+            ]
+        },
+        "338": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "fp_equal": {
+        "320": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "genSegments": {
+        "101": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "convert"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "store"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "102"
+                ]
+            ]
+        },
+        "102": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "103"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "105"
+                ]
+            ]
+        },
+        "103": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "convert"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "store"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "104"
+                ]
+            ]
+        },
+        "104": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "102"
+                ]
+            ]
+        },
+        "105": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "generateRandomOrdering": {
+        "106": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/random.c",
+                    "gv_permutation"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "107"
+                ]
+            ]
+        },
+        "107": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "108"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "110"
+                ]
+            ]
+        },
+        "108": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "109"
+                ]
+            ]
+        },
+        "109": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "107"
+                ]
+            ]
+        },
+        "110": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "get_angle": {
+        "356": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "sub_pointf.4512"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "sub_pointf.4512"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "357"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "358"
+                ]
+            ]
+        },
+        "357": {
+            "callees": [
+                [
+                    "__external__",
+                    "hypot"
+                ],
+                [
+                    "__external__",
+                    "hypot"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "359"
+                ]
+            ]
+        },
+        "358": {
+            "callees": [
+                [
+                    "__external__",
+                    "hypot"
+                ],
+                [
+                    "__external__",
+                    "hypot"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "359"
+                ]
+            ]
+        },
+        "359": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "get_vertex_positions": {
+        "339": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "340"
+                ]
+            ]
+        },
+        "340": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "341"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "347"
+                ]
+            ]
+        },
+        "341": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "342"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "343"
+                ]
+            ]
+        },
+        "342": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "346"
+                ]
+            ]
+        },
+        "343": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "get_angle"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "344"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "345"
+                ]
+            ]
+        },
+        "344": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "345"
+                ]
+            ]
+        },
+        "345": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "346"
+                ]
+            ]
+        },
+        "346": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "340"
+                ]
+            ]
+        },
+        "347": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "348"
+                ]
+            ]
+        },
+        "348": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "349"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "355"
+                ]
+            ]
+        },
+        "349": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "350"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "351"
+                ]
+            ]
+        },
+        "350": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "354"
+                ]
+            ]
+        },
+        "351": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "get_angle"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "352"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "353"
+                ]
+            ]
+        },
+        "352": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "353"
+                ]
+            ]
+        },
+        "353": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "354"
+                ]
+            ]
+        },
+        "354": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "348"
+                ]
+            ]
+        },
+        "355": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "graphviz_exit.4519": {
+        "152": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "greater_than": {
+        "294": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "295"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "296"
+                ]
+            ]
+        },
+        "295": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "300"
+                ]
+            ]
+        },
+        "296": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "297"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "298"
+                ]
+            ]
+        },
+        "297": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "299"
+                ]
+            ]
+        },
+        "298": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "299"
+                ]
+            ]
+        },
+        "299": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "300"
+                ]
+            ]
+        },
+        "300": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_calloc.4500": {
+        "100": {
+            "callees": [],
+            "successors": []
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "94"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "96"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "95"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "96"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "graphviz_exit.4519"
+                ]
+            ],
+            "successors": []
+        },
+        "96": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "97"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "100"
+                ]
+            ]
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "98"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "100"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "99"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "100"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "graphviz_exit.4519"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_list_size_.4501": {
+        "111": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "inside_polygon": {
+        "179": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "181"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "180"
+                ]
+            ]
+        },
+        "180": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "190"
+                ]
+            ]
+        },
+        "181": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "183"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "182"
+                ]
+            ]
+        },
+        "182": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "183"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "184"
+                ]
+            ]
+        },
+        "183": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "190"
+                ]
+            ]
+        },
+        "184": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "186"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "185"
+                ]
+            ]
+        },
+        "185": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "186"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "188"
+                ]
+            ]
+        },
+        "186": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "189"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "187"
+                ]
+            ]
+        },
+        "187": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "189"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "188"
+                ]
+            ]
+        },
+        "188": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "greater_than"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "190"
+                ]
+            ]
+        },
+        "189": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "190"
+                ]
+            ]
+        },
+        "190": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "is_valid_trap": {
+        "191": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "192"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "193"
+                ]
+            ]
+        },
+        "192": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "193"
+                ]
+            ]
+        },
+        "193": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "make_new_monotone_poly": {
+        "321": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "get_vertex_positions"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "322"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "326"
+                ]
+            ]
+        },
+        "322": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "323"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "326"
+                ]
+            ]
+        },
+        "323": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "324"
+                ]
+            ]
+        },
+        "324": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "325"
+                ]
+            ]
+        },
+        "325": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "326"
+                ]
+            ]
+        },
+        "326": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "327"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "331"
+                ]
+            ]
+        },
+        "327": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "328"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "331"
+                ]
+            ]
+        },
+        "328": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "329"
+                ]
+            ]
+        },
+        "329": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "330"
+                ]
+            ]
+        },
+        "330": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "331"
+                ]
+            ]
+        },
+        "331": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "332"
+                ]
+            ]
+        },
+        "332": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "333"
+                ]
+            ]
+        },
+        "333": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "334"
+                ]
+            ]
+        },
+        "334": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "335"
+                ]
+            ]
+        },
+        "335": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "monotonate_trapezoids": {
+        "112": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "bitarray_new.4505"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_calloc.4500"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_calloc.4500"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_calloc.4500"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "113"
+                ]
+            ]
+        },
+        "113": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "114"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "118"
+                ]
+            ]
+        },
+        "114": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "inside_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "115"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "116"
+                ]
+            ]
+        },
+        "115": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "118"
+                ]
+            ]
+        },
+        "116": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "117"
+                ]
+            ]
+        },
+        "117": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "113"
+                ]
+            ]
+        },
+        "118": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "119"
+                ]
+            ]
+        },
+        "119": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "120"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "124"
+                ]
+            ]
+        },
+        "120": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "121"
+                ]
+            ]
+        },
+        "121": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "122"
+                ]
+            ]
+        },
+        "122": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "123"
+                ]
+            ]
+        },
+        "123": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "119"
+                ]
+            ]
+        },
+        "124": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "125"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "126"
+                ]
+            ]
+        },
+        "125": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "129"
+                ]
+            ]
+        },
+        "126": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "127"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "128"
+                ]
+            ]
+        },
+        "127": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "128"
+                ]
+            ]
+        },
+        "128": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "129"
+                ]
+            ]
+        },
+        "129": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "bitarray_reset.4506"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "130"
+                ]
+            ]
+        },
+        "130": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "131"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "148"
+                ]
+            ]
+        },
+        "131": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "132"
+                ]
+            ]
+        },
+        "132": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "133"
+                ]
+            ]
+        },
+        "133": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "134"
+                ]
+            ]
+        },
+        "134": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "135"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "144"
+                ]
+            ]
+        },
+        "135": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "136"
+                ]
+            ]
+        },
+        "136": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "137"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "138"
+                ]
+            ]
+        },
+        "137": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "138": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "139"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "140"
+                ]
+            ]
+        },
+        "139": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "140"
+                ]
+            ]
+        },
+        "140": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "141"
+                ]
+            ]
+        },
+        "141": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "142"
+                ]
+            ]
+        },
+        "142": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "143"
+                ]
+            ]
+        },
+        "143": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "134"
+                ]
+            ]
+        },
+        "144": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "145"
+                ]
+            ]
+        },
+        "145": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "146"
+                ]
+            ]
+        },
+        "146": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "147"
+                ]
+            ]
+        },
+        "147": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "130"
+                ]
+            ]
+        },
+        "148": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "partition": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_calloc.4500"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "genSegments"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "generateRandomOrdering"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/trapezoid.c",
+                    "construct_trapezoids"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "92"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "11"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "12"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "13"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "14"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "5"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "16"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "17"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "genSegments"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "generateRandomOrdering"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/trapezoid.c",
+                    "construct_trapezoids"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "34"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "19"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "20"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "monotonate_trapezoids"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "3"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "21"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "22"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "31"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "23"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "25"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "26"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "27"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "27"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "29"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "30"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "4"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "21"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "32"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "33"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "92"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "monotonate_trapezoids"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "35"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "36"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "38"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "47"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "40"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "41"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "5"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "42"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "43"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "43"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "44"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "45"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "46"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "37"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "48"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "50"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "15"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "51"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "61"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "52"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "53"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "59"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "rectIntersect"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "57"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "55"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "56"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "57"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "58"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "52"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "60"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "7"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "50"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "62"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "63"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "64"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "65"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "74"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "66"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "67"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "68"
+                ]
+            ]
+        },
+        "67": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "68": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "69"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "70"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "70"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "9"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "71"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "72"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "73"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "64"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "76"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "77"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "78"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "79"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "gv_list_size_.4501"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "80"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "89"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "80": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "81"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "82"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "83"
+                ]
+            ]
+        },
+        "82": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "abort"
+                ]
+            ],
+            "successors": []
+        },
+        "83": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "84"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "85"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "85"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "86"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "87"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "88"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "79"
+                ]
+            ]
+        },
+        "89": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_clear_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "90"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "10"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "11"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_free_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "91"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "92"
+                ]
+            ]
+        },
+        "92": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "perp.4517": {
+        "174": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "rectIntersect": {
+        "149": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "151"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "150"
+                ]
+            ]
+        },
+        "150": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "151"
+                ]
+            ]
+        },
+        "151": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "store": {
+        "163": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "164"
+                ]
+            ]
+        },
+        "164": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "165"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "173"
+                ]
+            ]
+        },
+        "165": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "166"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "167"
+                ]
+            ]
+        },
+        "166": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "171"
+                ]
+            ]
+        },
+        "167": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "168"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "169"
+                ]
+            ]
+        },
+        "168": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "170"
+                ]
+            ]
+        },
+        "169": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "170"
+                ]
+            ]
+        },
+        "170": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "171"
+                ]
+            ]
+        },
+        "171": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "172"
+                ]
+            ]
+        },
+        "172": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "164"
+                ]
+            ]
+        },
+        "173": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "sub_pointf.4512": {
+        "360": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "traverse_polygon": {
+        "194": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "195"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "196"
+                ]
+            ]
+        },
+        "195": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "bitarray_get.4510"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "196"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "197"
+                ]
+            ]
+        },
+        "196": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "285"
+                ]
+            ]
+        },
+        "197": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "bitarray_set.4511"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "198"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "206"
+                ]
+            ]
+        },
+        "198": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "fp_equal"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "199"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "206"
+                ]
+            ]
+        },
+        "199": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "fp_equal"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "200"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "206"
+                ]
+            ]
+        },
+        "200": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "201"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "202"
+                ]
+            ]
+        },
+        "201": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "203"
+                ]
+            ]
+        },
+        "202": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "203"
+                ]
+            ]
+        },
+        "203": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "204"
+                ]
+            ]
+        },
+        "204": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_append_slot_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "205"
+                ]
+            ]
+        },
+        "205": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "206"
+                ]
+            ]
+        },
+        "206": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "216"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "207"
+                ]
+            ]
+        },
+        "207": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "216"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "208"
+                ]
+            ]
+        },
+        "208": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "209"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "214"
+                ]
+            ]
+        },
+        "209": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "210"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "214"
+                ]
+            ]
+        },
+        "210": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "211"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "212"
+                ]
+            ]
+        },
+        "211": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "213"
+                ]
+            ]
+        },
+        "212": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "213"
+                ]
+            ]
+        },
+        "213": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "215"
+                ]
+            ]
+        },
+        "214": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "215"
+                ]
+            ]
+        },
+        "215": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "285"
+                ]
+            ]
+        },
+        "216": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "226"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "217"
+                ]
+            ]
+        },
+        "217": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "226"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "218"
+                ]
+            ]
+        },
+        "218": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "219"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "224"
+                ]
+            ]
+        },
+        "219": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "220"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "224"
+                ]
+            ]
+        },
+        "220": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "221"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "222"
+                ]
+            ]
+        },
+        "221": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "223"
+                ]
+            ]
+        },
+        "222": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "223"
+                ]
+            ]
+        },
+        "223": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "225"
+                ]
+            ]
+        },
+        "224": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "225"
+                ]
+            ]
+        },
+        "225": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "284"
+                ]
+            ]
+        },
+        "226": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "227"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "250"
+                ]
+            ]
+        },
+        "227": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "228"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "250"
+                ]
+            ]
+        },
+        "228": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "229"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "237"
+                ]
+            ]
+        },
+        "229": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "230"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "237"
+                ]
+            ]
+        },
+        "230": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "231"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "232"
+                ]
+            ]
+        },
+        "231": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "234"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "232"
+                ]
+            ]
+        },
+        "232": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "233"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "235"
+                ]
+            ]
+        },
+        "233": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "234"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "235"
+                ]
+            ]
+        },
+        "234": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "236"
+                ]
+            ]
+        },
+        "235": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "236"
+                ]
+            ]
+        },
+        "236": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "249"
+                ]
+            ]
+        },
+        "237": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "238"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "243"
+                ]
+            ]
+        },
+        "238": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "239"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "241"
+                ]
+            ]
+        },
+        "239": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "240"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "241"
+                ]
+            ]
+        },
+        "240": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "242"
+                ]
+            ]
+        },
+        "241": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "242"
+                ]
+            ]
+        },
+        "242": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "248"
+                ]
+            ]
+        },
+        "243": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "244"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "246"
+                ]
+            ]
+        },
+        "244": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "245"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "246"
+                ]
+            ]
+        },
+        "245": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "247"
+                ]
+            ]
+        },
+        "246": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "247"
+                ]
+            ]
+        },
+        "247": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "248"
+                ]
+            ]
+        },
+        "248": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "249"
+                ]
+            ]
+        },
+        "249": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "283"
+                ]
+            ]
+        },
+        "250": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "252"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "251"
+                ]
+            ]
+        },
+        "251": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "252"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "282"
+                ]
+            ]
+        },
+        "252": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "253"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "266"
+                ]
+            ]
+        },
+        "253": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "is_valid_trap"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "254"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "266"
+                ]
+            ]
+        },
+        "254": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "255"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "260"
+                ]
+            ]
+        },
+        "255": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "256"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "257"
+                ]
+            ]
+        },
+        "256": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "258"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "257"
+                ]
+            ]
+        },
+        "257": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "259"
+                ]
+            ]
+        },
+        "258": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "259"
+                ]
+            ]
+        },
+        "259": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "265"
+                ]
+            ]
+        },
+        "260": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/util/list.c",
+                    "gv_list_get_"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "261"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "263"
+                ]
+            ]
+        },
+        "261": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "262"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "263"
+                ]
+            ]
+        },
+        "262": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "264"
+                ]
+            ]
+        },
+        "263": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "264"
+                ]
+            ]
+        },
+        "264": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "265"
+                ]
+            ]
+        },
+        "265": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "281"
+                ]
+            ]
+        },
+        "266": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "267"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "272"
+                ]
+            ]
+        },
+        "267": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "268"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "272"
+                ]
+            ]
+        },
+        "268": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "269"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "270"
+                ]
+            ]
+        },
+        "269": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "271"
+                ]
+            ]
+        },
+        "270": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "271"
+                ]
+            ]
+        },
+        "271": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "280"
+                ]
+            ]
+        },
+        "272": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "273"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "278"
+                ]
+            ]
+        },
+        "273": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "equal_to"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "274"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "278"
+                ]
+            ]
+        },
+        "274": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "275"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "276"
+                ]
+            ]
+        },
+        "275": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "277"
+                ]
+            ]
+        },
+        "276": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "make_new_monotone_poly"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "277"
+                ]
+            ]
+        },
+        "277": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "279"
+                ]
+            ]
+        },
+        "278": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "traverse_polygon"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "279"
+                ]
+            ]
+        },
+        "279": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "280"
+                ]
+            ]
+        },
+        "280": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "281"
+                ]
+            ]
+        },
+        "281": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "282"
+                ]
+            ]
+        },
+        "282": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "283"
+                ]
+            ]
+        },
+        "283": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "284"
+                ]
+            ]
+        },
+        "284": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/ortho/partition.c",
+                    "285"
+                ]
+            ]
+        },
+        "285": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

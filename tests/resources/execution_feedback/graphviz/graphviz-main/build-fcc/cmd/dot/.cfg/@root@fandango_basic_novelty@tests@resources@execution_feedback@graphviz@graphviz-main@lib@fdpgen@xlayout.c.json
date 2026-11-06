@@ -1,0 +1,1391 @@
+{
+    "HT2": {
+        "96": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "97"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "98"
+                ]
+            ]
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "99"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "99"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "RAD": {
+        "114": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "WD2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "HT2"
+                ],
+                [
+                    "__external__",
+                    "hypot"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "WD2": {
+        "92": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "93"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "94"
+                ]
+            ]
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "95"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "95"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "adjust.8594": {
+        "57": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "58"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "59"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "61"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "60"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "58"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "62"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "63"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "76"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "64"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "65"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "67"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "applyRep.8595"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "66"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "64"
+                ]
+            ]
+        },
+        "67": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agfstout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "68"
+                ]
+            ]
+        },
+        "68": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "69"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "74"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "70"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "71"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "72"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "72"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "applyAttr.8596"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "73"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/edge.c",
+                    "agnxtout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "68"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "62"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "77"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "78"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "88"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "79"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "80"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "87"
+                ]
+            ]
+        },
+        "80": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "81"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "82"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "86"
+                ]
+            ]
+        },
+        "82": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "83"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "84"
+                ]
+            ]
+        },
+        "83": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "85"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [
+                [
+                    "__external__",
+                    "sqrt"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "85"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "86"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "79"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "88"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "applyAttr.8596": {
+        "101": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "overlap.8597"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "102"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "103"
+                ]
+            ]
+        },
+        "102": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "104"
+                ]
+            ]
+        },
+        "103": {
+            "callees": [
+                [
+                    "__external__",
+                    "hypot"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "RAD"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "RAD"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "104"
+                ]
+            ]
+        },
+        "104": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "applyRep.8595": {
+        "100": {
+            "callees": [
+                [
+                    "__external__",
+                    "hypot"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "doRep.8598"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "cntOverlaps": {
+        "42": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agfstnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "43"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "44"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "50"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "45"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "46"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "48"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "overlap.8597"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "47"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "45"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/node.c",
+                    "agnxtnode"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "43"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "cool.8593": {
+        "56": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "doRep.8598": {
+        "105": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "106"
+                ]
+            ]
+        },
+        "106": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "107"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "108"
+                ]
+            ]
+        },
+        "107": {
+            "callees": [
+                [
+                    "__external__",
+                    "rand"
+                ],
+                [
+                    "__external__",
+                    "rand"
+                ],
+                [
+                    "__external__",
+                    "hypot"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "106"
+                ]
+            ]
+        },
+        "108": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "overlap.8597"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "109"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "110"
+                ]
+            ]
+        },
+        "109": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "111"
+                ]
+            ]
+        },
+        "110": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "111"
+                ]
+            ]
+        },
+        "111": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "112"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "113"
+                ]
+            ]
+        },
+        "112": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "113"
+                ]
+            ]
+        },
+        "113": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "fdp_xLayout": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/attr.c",
+                    "agget"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "2"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "2"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "12"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "12"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "13"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "14"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "14"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "17"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "x_layout"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "17"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "16"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "18"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/adjust.c",
+                    "removeOverlapAs"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "18"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": []
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "3"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "4"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "4"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "5"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "5"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [
+                [
+                    "__external__",
+                    "strchr"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "11"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "7"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "gv_isdigit.8591"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "11"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [
+                [
+                    "__external__",
+                    "atoi"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "9"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "10"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "10"
+                ]
+            ]
+        }
+    },
+    "gv_isdigit.8591": {
+        "19": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "20"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "21"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "21"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "overlap.8597": {
+        "89": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "WD2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "WD2"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "90"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "91"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "HT2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "HT2"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "91"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "x_layout": {
+        "22": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/graph.c",
+                    "agnnodes"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/graph.c",
+                    "agnedges"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/adjust.c",
+                    "sepFactor"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "23"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "24"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "24"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "cntOverlaps"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "25"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "26"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "41"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "27"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "28"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "29"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "29"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "30"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "40"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "xinit_params"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "31"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "32"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "38"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "cool.8593"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "33"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "34"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "38"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "adjust.8594"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "35"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "36"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "38"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "31"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "27"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "41"
+                ]
+            ]
+        },
+        "41": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "xinit_params": {
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "52"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "53"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "53"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "55"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [
+                [
+                    "__external__",
+                    "sqrt"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/fdpgen/xlayout.c",
+                    "55"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

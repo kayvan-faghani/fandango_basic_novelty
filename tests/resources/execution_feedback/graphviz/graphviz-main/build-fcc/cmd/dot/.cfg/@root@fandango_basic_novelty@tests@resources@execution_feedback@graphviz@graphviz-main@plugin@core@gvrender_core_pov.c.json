@@ -1,0 +1,2554 @@
+{
+    "agxbclear.6515": {
+        "180": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "181"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "182"
+                ]
+            ]
+        },
+        "181": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "183"
+                ]
+            ]
+        },
+        "182": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "183"
+                ]
+            ]
+        },
+        "183": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbdisown.6493": {
+        "70": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "71"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "72"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "gv_strndup.6496"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "73"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbputc.6497"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "73"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbfree.6492": {
+        "67": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "68"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "69"
+                ]
+            ]
+        },
+        "68": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "69"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxblen.6495": {
+        "83": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "84"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "85"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "86"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "86"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbmore.6499": {
+        "102": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbsizeof.6498"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "103"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "104"
+                ]
+            ]
+        },
+        "103": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "105"
+                ]
+            ]
+        },
+        "104": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "105"
+                ]
+            ]
+        },
+        "105": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "106"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "107"
+                ]
+            ]
+        },
+        "106": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "107"
+                ]
+            ]
+        },
+        "107": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "108"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "109"
+                ]
+            ]
+        },
+        "108": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "gv_recalloc.6503"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "110"
+                ]
+            ]
+        },
+        "109": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "gv_calloc.6504"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "110"
+                ]
+            ]
+        },
+        "110": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbnext.6520": {
+        "176": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "177"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "178"
+                ]
+            ]
+        },
+        "177": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "179"
+                ]
+            ]
+        },
+        "178": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "179"
+                ]
+            ]
+        },
+        "179": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbprint.6483": {
+        "61": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "vagxbprint.6517"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "agxbputc.6497": {
+        "87": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbsizeof.6498"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "88"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "89"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbmore.6499"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "89"
+                ]
+            ]
+        },
+        "89": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "90"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "95"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "91"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "93"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "92"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "93"
+                ]
+            ]
+        },
+        "92": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "94"
+                ]
+            ]
+        },
+        "93": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "94": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "96"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "96"
+                ]
+            ]
+        },
+        "96": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbsizeof.6498": {
+        "100": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "101"
+                ]
+            ]
+        },
+        "101": {
+            "callees": [],
+            "successors": []
+        },
+        "98": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "99"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "100"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "101"
+                ]
+            ]
+        }
+    },
+    "agxbstart.6516": {
+        "184": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "185"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "186"
+                ]
+            ]
+        },
+        "185": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "187"
+                ]
+            ]
+        },
+        "186": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "187"
+                ]
+            ]
+        },
+        "187": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbuf_is_inline.6494": {
+        "74": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "76"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "76"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "78"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "77"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "78"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "79"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "79": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "agxbuse.6490": {
+        "62": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "63"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "64"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "64"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "65"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbputc.6497"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "66"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "66"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbclear.6515"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbstart.6516"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "graphviz_exit.6506": {
+        "97": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.6504": {
+        "122": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "123"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "125"
+                ]
+            ]
+        },
+        "123": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "124"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "125"
+                ]
+            ]
+        },
+        "124": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "graphviz_exit.6506"
+                ]
+            ],
+            "successors": []
+        },
+        "125": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "126"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "129"
+                ]
+            ]
+        },
+        "126": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "127"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "129"
+                ]
+            ]
+        },
+        "127": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "128"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "129"
+                ]
+            ]
+        },
+        "128": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "graphviz_exit.6506"
+                ]
+            ],
+            "successors": []
+        },
+        "129": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_realloc.6512": {
+        "130": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "131"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "132"
+                ]
+            ]
+        },
+        "131": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "137"
+                ]
+            ]
+        },
+        "132": {
+            "callees": [
+                [
+                    "__external__",
+                    "realloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "133"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "134"
+                ]
+            ]
+        },
+        "133": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "graphviz_exit.6506"
+                ]
+            ],
+            "successors": []
+        },
+        "134": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "135"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "136"
+                ]
+            ]
+        },
+        "135": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "136"
+                ]
+            ]
+        },
+        "136": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "137"
+                ]
+            ]
+        },
+        "137": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "gv_recalloc.6503": {
+        "111": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "112"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "114"
+                ]
+            ]
+        },
+        "112": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "113"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "114"
+                ]
+            ]
+        },
+        "113": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "115"
+                ]
+            ]
+        },
+        "114": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "115": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "116"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "118"
+                ]
+            ]
+        },
+        "116": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "117"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "118"
+                ]
+            ]
+        },
+        "117": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "119"
+                ]
+            ]
+        },
+        "118": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "119": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "120"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "121"
+                ]
+            ]
+        },
+        "120": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "graphviz_exit.6506"
+                ]
+            ],
+            "successors": []
+        },
+        "121": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "gv_realloc.6512"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_strndup.6496": {
+        "80": {
+            "callees": [
+                [
+                    "__external__",
+                    "strndup"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "81"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "82"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "graphviz_exit.6506"
+                ]
+            ],
+            "successors": []
+        },
+        "82": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "pov_begin_cluster": {
+        "7": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_edge": {
+        "11": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_graph": {
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/id.c",
+                    "agnameof"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "atan"
+                ],
+                [
+                    "__external__",
+                    "atan"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_job": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_layer": {
+        "3": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_node": {
+        "9": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/id.c",
+                    "agnameof"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_begin_page": {
+        "5": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_bezier": {
+        "33": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "34"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "35"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "40"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "37"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "36"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "37"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "38"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "38"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "34"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuse.6490"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbfree.6492"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_color_as_str": {
+        "47": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "59"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "48"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "58"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [
+                [
+                    "__external__",
+                    "strcmp"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "50"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "49"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "57"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [
+                [
+                    "__external__",
+                    "strcmp"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "52"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "51"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "56"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [
+                [
+                    "__external__",
+                    "strcmp"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "53"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "55"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "55"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "56"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "57"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "60"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "60"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "60": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuse.6490"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbfree.6492"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbdisown.6493"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_comment": {
+        "46": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_ellipse": {
+        "19": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuse.6490"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "20"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "21"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "21"
+                ]
+            ]
+        },
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbfree.6492"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_cluster": {
+        "8": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_edge": {
+        "12": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_graph": {
+        "2": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_layer": {
+        "4": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_node": {
+        "10": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_end_page": {
+        "6": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_polygon": {
+        "22": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "23"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "26"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "25"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "23"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "27"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "32"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "28"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "29"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "31"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "30"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "28"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "32"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "pov_polyline": {
+        "41": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "42"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "43"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "45"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "44"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "42"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "pov_textspan": {
+        "13": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "16"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "14"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "17"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "18"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "18"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "17"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "18"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "pov_color_as_str"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbprint.6483"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuse.6490"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/gvc/gvdevice.c",
+                    "gvputs"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbfree.6492"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "vagxbprint.6517": {
+        "138": {
+            "callees": [
+                [
+                    "__external__",
+                    "vsnprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "139"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "140"
+                ]
+            ]
+        },
+        "139": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "175"
+                ]
+            ]
+        },
+        "140": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbsizeof.6498"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "141"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "146"
+                ]
+            ]
+        },
+        "141": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "142"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "144"
+                ]
+            ]
+        },
+        "142": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "143"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "144"
+                ]
+            ]
+        },
+        "143": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "145"
+                ]
+            ]
+        },
+        "144": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbmore.6499"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "145"
+                ]
+            ]
+        },
+        "145": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "146"
+                ]
+            ]
+        },
+        "146": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "147"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "148"
+                ]
+            ]
+        },
+        "147": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "148"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "149"
+                ]
+            ]
+        },
+        "148": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "150"
+                ]
+            ]
+        },
+        "149": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "150": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "151"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "152"
+                ]
+            ]
+        },
+        "151": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "153"
+                ]
+            ]
+        },
+        "152": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbnext.6520"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "153"
+                ]
+            ]
+        },
+        "153": {
+            "callees": [
+                [
+                    "__external__",
+                    "vsnprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "155"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "154"
+                ]
+            ]
+        },
+        "154": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "155"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "156"
+                ]
+            ]
+        },
+        "155": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "157"
+                ]
+            ]
+        },
+        "156": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "157": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "158"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "174"
+                ]
+            ]
+        },
+        "158": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbuf_is_inline.6494"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "159"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "169"
+                ]
+            ]
+        },
+        "159": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "160"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "161"
+                ]
+            ]
+        },
+        "160": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "162"
+                ]
+            ]
+        },
+        "161": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "162": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "163"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "164"
+                ]
+            ]
+        },
+        "163": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxbnext.6520"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "164"
+                ]
+            ]
+        },
+        "164": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "agxblen.6495"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "165"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "167"
+                ]
+            ]
+        },
+        "165": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "166"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "167"
+                ]
+            ]
+        },
+        "166": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "168"
+                ]
+            ]
+        },
+        "167": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "168": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "173"
+                ]
+            ]
+        },
+        "169": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "171"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "170"
+                ]
+            ]
+        },
+        "170": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "172"
+                ]
+            ]
+        },
+        "171": {
+            "callees": [
+                [
+                    "__external__",
+                    "__assert_fail"
+                ]
+            ],
+            "successors": []
+        },
+        "172": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "173"
+                ]
+            ]
+        },
+        "173": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "174"
+                ]
+            ]
+        },
+        "174": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/plugin/core/gvrender_core_pov.c",
+                    "175"
+                ]
+            ]
+        },
+        "175": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

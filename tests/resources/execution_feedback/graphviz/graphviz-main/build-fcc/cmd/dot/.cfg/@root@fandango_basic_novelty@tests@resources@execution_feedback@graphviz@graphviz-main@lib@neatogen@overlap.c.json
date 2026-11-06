@@ -1,0 +1,35 @@
+{
+    "remove_overlap": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/overlap.c",
+                    "2"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/overlap.c",
+                    "1"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agerrorf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/overlap.c",
+                    "2"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}

@@ -1,0 +1,2590 @@
+{
+    "graphviz_exit.9659": {
+        "218": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.9656": {
+        "210": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "211"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "213"
+                ]
+            ]
+        },
+        "211": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "212"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "213"
+                ]
+            ]
+        },
+        "212": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "graphviz_exit.9659"
+                ]
+            ],
+            "successors": []
+        },
+        "213": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "214"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "217"
+                ]
+            ]
+        },
+        "214": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "215"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "217"
+                ]
+            ]
+        },
+        "215": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "216"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "217"
+                ]
+            ]
+        },
+        "216": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "graphviz_exit.9659"
+                ]
+            ],
+            "successors": []
+        },
+        "217": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "stress_majorization_with_hierarchy": {
+        "0": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "1"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "10"
+                ]
+            ]
+        },
+        "1": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "2"
+                ]
+            ]
+        },
+        "10": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "12"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "11"
+                ]
+            ]
+        },
+        "100": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/kkutils.c",
+                    "distance_kD"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "101"
+                ]
+            ]
+        },
+        "101": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "99"
+                ]
+            ]
+        },
+        "102": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "103"
+                ]
+            ]
+        },
+        "103": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "97"
+                ]
+            ]
+        },
+        "104": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "105"
+                ]
+            ]
+        },
+        "105": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "106"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "108"
+                ]
+            ]
+        },
+        "106": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "107"
+                ]
+            ]
+        },
+        "107": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "105"
+                ]
+            ]
+        },
+        "108": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "109"
+                ]
+            ]
+        },
+        "109": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "110"
+                ]
+            ]
+        },
+        "11": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "stress_majorization_kD_mkernel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "110": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "111"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "113"
+                ]
+            ]
+        },
+        "111": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "orthog1"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "112"
+                ]
+            ]
+        },
+        "112": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "110"
+                ]
+            ]
+        },
+        "113": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "114"
+                ]
+            ]
+        },
+        "114": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "115"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "117"
+                ]
+            ]
+        },
+        "115": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "116"
+                ]
+            ]
+        },
+        "116": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "114"
+                ]
+            ]
+        },
+        "117": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "118"
+                ]
+            ]
+        },
+        "118": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "119"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "125"
+                ]
+            ]
+        },
+        "119": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "120"
+                ]
+            ]
+        },
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "13"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "48"
+                ]
+            ]
+        },
+        "120": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "121"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "123"
+                ]
+            ]
+        },
+        "121": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "122"
+                ]
+            ]
+        },
+        "122": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "120"
+                ]
+            ]
+        },
+        "123": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "124"
+                ]
+            ]
+        },
+        "124": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "118"
+                ]
+            ]
+        },
+        "125": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "126"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "127"
+                ]
+            ]
+        },
+        "126": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/timing.c",
+                    "elapsed_sec"
+                ],
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "127"
+                ]
+            ]
+        },
+        "127": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "square_vec"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "invert_vec"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "128"
+                ]
+            ]
+        },
+        "128": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "129"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "135"
+                ]
+            ]
+        },
+        "129": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "130"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "14"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "21"
+                ]
+            ]
+        },
+        "130": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "131"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "133"
+                ]
+            ]
+        },
+        "131": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "132"
+                ]
+            ]
+        },
+        "132": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "130"
+                ]
+            ]
+        },
+        "133": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "134"
+                ]
+            ]
+        },
+        "134": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "128"
+                ]
+            ]
+        },
+        "135": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "136"
+                ]
+            ]
+        },
+        "136": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "137"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "139"
+                ]
+            ]
+        },
+        "137": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "138"
+                ]
+            ]
+        },
+        "138": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "136"
+                ]
+            ]
+        },
+        "139": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "140"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "stress_majorization_kD_mkernel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "15"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "16"
+                ]
+            ]
+        },
+        "140": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "141"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "143"
+                ]
+            ]
+        },
+        "141": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "142"
+                ]
+            ]
+        },
+        "142": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "140"
+                ]
+            ]
+        },
+        "143": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "gv_calloc.9656"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/quad_prog_solve.c",
+                    "initConstrainedMajorization"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "144"
+                ]
+            ]
+        },
+        "144": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "145"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "146"
+                ]
+            ]
+        },
+        "145": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "146"
+                ]
+            ]
+        },
+        "146": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "147"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "195"
+                ]
+            ]
+        },
+        "147": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "sqrt_vecf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "148"
+                ]
+            ]
+        },
+        "148": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "149"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "166"
+                ]
+            ]
+        },
+        "149": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "set_vector_valf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "150"
+                ]
+            ]
+        },
+        "15": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "150": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "151"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "153"
+                ]
+            ]
+        },
+        "151": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "set_vector_valf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "vectors_mult_additionf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "square_vec"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "vectors_additionf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "152"
+                ]
+            ]
+        },
+        "152": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "150"
+                ]
+            ]
+        },
+        "153": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "invert_sqrt_vec"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "154"
+                ]
+            ]
+        },
+        "154": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "155"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "160"
+                ]
+            ]
+        },
+        "155": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "157"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "156"
+                ]
+            ]
+        },
+        "156": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "157"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "158"
+                ]
+            ]
+        },
+        "157": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "158"
+                ]
+            ]
+        },
+        "158": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "159"
+                ]
+            ]
+        },
+        "159": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "154"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "17"
+                ]
+            ]
+        },
+        "160": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "161"
+                ]
+            ]
+        },
+        "161": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "162"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "164"
+                ]
+            ]
+        },
+        "162": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "163"
+                ]
+            ]
+        },
+        "163": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "161"
+                ]
+            ]
+        },
+        "164": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "165"
+                ]
+            ]
+        },
+        "165": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "148"
+                ]
+            ]
+        },
+        "166": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "167"
+                ]
+            ]
+        },
+        "167": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "168"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "170"
+                ]
+            ]
+        },
+        "168": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "169"
+                ]
+            ]
+        },
+        "169": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "167"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "20"
+                ]
+            ]
+        },
+        "170": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "171"
+                ]
+            ]
+        },
+        "171": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "172"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "174"
+                ]
+            ]
+        },
+        "172": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "right_mult_with_vector_ff"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "173"
+                ]
+            ]
+        },
+        "173": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "171"
+                ]
+            ]
+        },
+        "174": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "175"
+                ]
+            ]
+        },
+        "175": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "176"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "178"
+                ]
+            ]
+        },
+        "176": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "vectors_inner_productf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "177"
+                ]
+            ]
+        },
+        "177": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "175"
+                ]
+            ]
+        },
+        "178": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "179"
+                ]
+            ]
+        },
+        "179": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "180"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "182"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "19"
+                ]
+            ]
+        },
+        "180": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "right_mult_with_vector_ff"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/matrix_ops.c",
+                    "vectors_inner_productf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "181"
+                ]
+            ]
+        },
+        "181": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "179"
+                ]
+            ]
+        },
+        "182": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "183"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "184"
+                ]
+            ]
+        },
+        "183": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "184"
+                ]
+            ]
+        },
+        "184": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "185"
+                ]
+            ]
+        },
+        "185": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "186"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "193"
+                ]
+            ]
+        },
+        "186": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "187"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "188"
+                ]
+            ]
+        },
+        "187": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/quad_prog_solve.c",
+                    "constrained_majorization_new_with_gaps"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "191"
+                ]
+            ]
+        },
+        "188": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/conjgrad.c",
+                    "conjugate_gradient_mkernel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "189"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "190"
+                ]
+            ]
+        },
+        "189": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "19": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "17"
+                ]
+            ]
+        },
+        "190": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "191"
+                ]
+            ]
+        },
+        "191": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "192"
+                ]
+            ]
+        },
+        "192": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "185"
+                ]
+            ]
+        },
+        "193": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "194"
+                ]
+            ]
+        },
+        "194": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "144"
+                ]
+            ]
+        },
+        "195": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "196"
+                ]
+            ]
+        },
+        "196": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "197"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "203"
+                ]
+            ]
+        },
+        "197": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "198"
+                ]
+            ]
+        },
+        "198": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "199"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "201"
+                ]
+            ]
+        },
+        "199": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "200"
+                ]
+            ]
+        },
+        "2": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "3"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "9"
+                ]
+            ]
+        },
+        "20": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "21"
+                ]
+            ]
+        },
+        "200": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "198"
+                ]
+            ]
+        },
+        "201": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "202"
+                ]
+            ]
+        },
+        "202": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "196"
+                ]
+            ]
+        },
+        "203": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "204": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "205"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "206"
+                ]
+            ]
+        },
+        "205": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/quad_prog_solve.c",
+                    "deleteCMajEnv"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "206"
+                ]
+            ]
+        },
+        "206": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "207"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "208"
+                ]
+            ]
+        },
+        "207": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "208"
+                ]
+            ]
+        },
+        "208": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "209": {
+            "callees": [],
+            "successors": []
+        },
+        "21": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/opt_arrangement.c",
+                    "compute_y_coords"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "22"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "23"
+                ]
+            ]
+        },
+        "22": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "23": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/compute_hierarchy.c",
+                    "compute_hierarchy"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "24"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "25"
+                ]
+            ]
+        },
+        "24": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "25": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "26"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "27"
+                ]
+            ]
+        },
+        "26": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "stress_majorization_kD_mkernel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "27": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "28"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "43"
+                ]
+            ]
+        },
+        "28": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "29"
+                ]
+            ]
+        },
+        "29": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "30"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "42"
+                ]
+            ]
+        },
+        "3": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "4"
+                ]
+            ]
+        },
+        "30": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "31"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "32"
+                ]
+            ]
+        },
+        "31": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "33"
+                ]
+            ]
+        },
+        "32": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "33"
+                ]
+            ]
+        },
+        "33": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "34"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "35"
+                ]
+            ]
+        },
+        "34": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "36"
+                ]
+            ]
+        },
+        "35": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "36"
+                ]
+            ]
+        },
+        "36": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "37"
+                ]
+            ]
+        },
+        "37": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "38"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "40"
+                ]
+            ]
+        },
+        "38": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "39"
+                ]
+            ]
+        },
+        "39": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "37"
+                ]
+            ]
+        },
+        "4": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "5"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "7"
+                ]
+            ]
+        },
+        "40": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "41"
+                ]
+            ]
+        },
+        "41": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "29"
+                ]
+            ]
+        },
+        "42": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "43"
+                ]
+            ]
+        },
+        "43": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "44"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "47"
+                ]
+            ]
+        },
+        "44": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/smart_ini_x.c",
+                    "IMDS_given_dim"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "45"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "46"
+                ]
+            ]
+        },
+        "45": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "46": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "47"
+                ]
+            ]
+        },
+        "47": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "51"
+                ]
+            ]
+        },
+        "48": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "initLayout"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/compute_hierarchy.c",
+                    "compute_hierarchy"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "49"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "50"
+                ]
+            ]
+        },
+        "49": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "204"
+                ]
+            ]
+        },
+        "5": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "6"
+                ]
+            ]
+        },
+        "50": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "51"
+                ]
+            ]
+        },
+        "51": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "52"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "53"
+                ]
+            ]
+        },
+        "52": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "53": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "54"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "55"
+                ]
+            ]
+        },
+        "54": {
+            "callees": [
+                [
+                    "__external__",
+                    "free"
+                ],
+                [
+                    "__external__",
+                    "free"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "209"
+                ]
+            ]
+        },
+        "55": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "56"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "57"
+                ]
+            ]
+        },
+        "56": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/timing.c",
+                    "start_timer"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "57"
+                ]
+            ]
+        },
+        "57": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "58"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "61"
+                ]
+            ]
+        },
+        "58": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "59"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "60"
+                ]
+            ]
+        },
+        "59": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "60"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "4"
+                ]
+            ]
+        },
+        "60": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "compute_apsp_artificial_weights_packed"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "71"
+                ]
+            ]
+        },
+        "61": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "62"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "65"
+                ]
+            ]
+        },
+        "62": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "circuitModel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "64"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "63"
+                ]
+            ]
+        },
+        "63": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agwarningf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cgraph/agerror.c",
+                    "agerr"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "64"
+                ]
+            ]
+        },
+        "64": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "70"
+                ]
+            ]
+        },
+        "65": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "66"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "69"
+                ]
+            ]
+        },
+        "66": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "67"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "68"
+                ]
+            ]
+        },
+        "67": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "68"
+                ]
+            ]
+        },
+        "68": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "mdsModel"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "69"
+                ]
+            ]
+        },
+        "69": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "70"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "8"
+                ]
+            ]
+        },
+        "70": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "71"
+                ]
+            ]
+        },
+        "71": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "75"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "72"
+                ]
+            ]
+        },
+        "72": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "73"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "74"
+                ]
+            ]
+        },
+        "73": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "74"
+                ]
+            ]
+        },
+        "74": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/stress.c",
+                    "compute_apsp_packed"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "75"
+                ]
+            ]
+        },
+        "75": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "76"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "77"
+                ]
+            ]
+        },
+        "76": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/timing.c",
+                    "elapsed_sec"
+                ],
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/common/timing.c",
+                    "start_timer"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "77"
+                ]
+            ]
+        },
+        "77": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "95"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "78"
+                ]
+            ]
+        },
+        "78": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "79"
+                ]
+            ]
+        },
+        "79": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "80"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "86"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "2"
+                ]
+            ]
+        },
+        "80": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "81"
+                ]
+            ]
+        },
+        "81": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "82"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "84"
+                ]
+            ]
+        },
+        "82": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "83"
+                ]
+            ]
+        },
+        "83": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "81"
+                ]
+            ]
+        },
+        "84": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "85"
+                ]
+            ]
+        },
+        "85": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "79"
+                ]
+            ]
+        },
+        "86": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "87"
+                ]
+            ]
+        },
+        "87": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "88"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "94"
+                ]
+            ]
+        },
+        "88": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "89"
+                ]
+            ]
+        },
+        "89": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "90"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "92"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "10"
+                ]
+            ]
+        },
+        "90": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "91"
+                ]
+            ]
+        },
+        "91": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "89"
+                ]
+            ]
+        },
+        "92": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "93"
+                ]
+            ]
+        },
+        "93": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "87"
+                ]
+            ]
+        },
+        "94": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "95"
+                ]
+            ]
+        },
+        "95": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "96"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "109"
+                ]
+            ]
+        },
+        "96": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "97"
+                ]
+            ]
+        },
+        "97": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "98"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "104"
+                ]
+            ]
+        },
+        "98": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "99"
+                ]
+            ]
+        },
+        "99": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "100"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/neatogen/constrained_majorization.c",
+                    "102"
+                ]
+            ]
+        }
+    }
+}

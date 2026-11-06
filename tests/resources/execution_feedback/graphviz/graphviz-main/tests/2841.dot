@@ -1,0 +1,25 @@
+digraph TicketBooking {
+  component=true;layout=fdp;
+  node [shape=box style=filled]cluster_reservation -> cluster_cinema:
+  c label="<left>left |{<up>uO | <middle>middle r>
+      </tanle>
+    >]ORDER="hape=none  label=<<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" CELLBORDER="1">
+    <TR>
+    <TD _ORT="htmlleft">LEluster_reservation -> cluster_movie;
+  cluster_reservation -> cluster_user subgraph cluster_cinema {
+    label="Cinema(Context)";
+  }
+
+  subgraph cluster_movie {
+label="Movie(Context)";
+  }
+
+  subgraph cluster_reservation {
+    label="Restion(Context)";
+  }
+
+  subgraph cluster_user {
+    label="Usontext)";
+  }
+} 
+

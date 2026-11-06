@@ -1,0 +1,230 @@
+{
+    "add_edge": {
+        "2": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "cmpItem.8463": {
+        "10": {
+            "callees": [],
+            "successors": []
+        },
+        "5": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "6"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "7"
+                ]
+            ]
+        },
+        "6": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "10"
+                ]
+            ]
+        },
+        "7": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "8"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "9"
+                ]
+            ]
+        },
+        "8": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "10"
+                ]
+            ]
+        },
+        "9": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "10"
+                ]
+            ]
+        }
+    },
+    "free_edgelist": {
+        "1": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtclose.c",
+                    "dtclose"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "graphviz_exit.8467": {
+        "20": {
+            "callees": [
+                [
+                    "__external__",
+                    "exit"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_alloc.8464": {
+        "11": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "gv_calloc.8465"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "gv_calloc.8465": {
+        "12": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "13"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "15"
+                ]
+            ]
+        },
+        "13": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "14"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "15"
+                ]
+            ]
+        },
+        "14": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "graphviz_exit.8467"
+                ]
+            ],
+            "successors": []
+        },
+        "15": {
+            "callees": [
+                [
+                    "__external__",
+                    "calloc"
+                ]
+            ],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "16"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "19"
+                ]
+            ]
+        },
+        "16": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "17"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "19"
+                ]
+            ]
+        },
+        "17": {
+            "callees": [],
+            "successors": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "18"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "19"
+                ]
+            ]
+        },
+        "18": {
+            "callees": [
+                [
+                    "__external__",
+                    "fprintf"
+                ],
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "graphviz_exit.8467"
+                ]
+            ],
+            "successors": []
+        },
+        "19": {
+            "callees": [],
+            "successors": []
+        }
+    },
+    "init_edgelist": {
+        "0": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/cdt/dtopen.c",
+                    "dtopen"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "mkItem": {
+        "4": {
+            "callees": [
+                [
+                    "/root/fandango_basic_novelty/tests/resources/execution_feedback/graphviz/graphviz-main/lib/circogen/edgelist.c",
+                    "gv_alloc.8464"
+                ]
+            ],
+            "successors": []
+        }
+    },
+    "remove_edge": {
+        "3": {
+            "callees": [],
+            "successors": []
+        }
+    }
+}
